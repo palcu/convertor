@@ -1,0 +1,21 @@
+[{
+"id": 1,
+"language": "Ruby",
+"usage": "Mainly by hipsters.",
+"power": 4
+}, {
+"id": 2,
+"language": "Python",
+"usage": "Computer scientists and some wannabe hipsters.",
+"power": 2
+}, {
+"id": 3,
+"language": "C++",
+"usage": "Hardcore people who love dangling pointers.",
+"power": 100
+}, {
+"id": 4,
+"language": "Haskell",
+"usage": "A lonely dude in Massachussets.",
+"power": 999999
+}]
