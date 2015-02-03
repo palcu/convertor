@@ -3,13 +3,14 @@
 
 using namespace std;
 
-const int MAX_LG = 131072,
+const int MAX_LG = 1024*1024*1024,
           MAX_LG_LINE = 1024;
 
 char s[MAX_LG];
 
 int main() {
-    FILE * pIn = fopen("convertor.in", "r");
+    FILE * pIn = fopen("grader_test10.in", "r");
+    freopen("grader_test10.ok", "w", stdout);
 
     char line[MAX_LG_LINE];
     while(fgets(line, MAX_LG_LINE, pIn) > 0) {
