@@ -118,7 +118,10 @@ int main() {
                     printf("%c", s[i]);
                 } else if (s[i] == ',') {
                     state = 8;
+                } else if (s[i] == '}') {
+                    state = 9;
                 } else {
+                    // caz "sex": 3143249  , "bla"
                     state = 7;
                 }
                 break;
