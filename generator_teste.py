@@ -9,8 +9,9 @@ NO_ENTRIES = 10
 NO_ENTRIES_NUMBER = NO_KEYS / 3
 
 keys = [faker.sentence() for _ in range(NO_KEYS)]
-keys_with_ints = {random.randint(0, NO_KEYS-1) for x in range(NO_ENTRIES_NUMBER)}
-# print keys_with_ints
+keys_with_ints = {random.randint(0, NO_KEYS-1)
+                  for x in range(NO_ENTRIES_NUMBER)}
+
 l = []
 for _ in range(NO_ENTRIES):
     d = {}
@@ -21,11 +22,8 @@ for _ in range(NO_ENTRIES):
             d[key] = faker.sentence()
     l.append(d)
 
-# print json.dumps(l, sort_keys=True) fara indentare
-# print json.dumps(l, sort_keys=True, indent=1)
 
-
-def fuck_it(s):
+def add_random_whitespace(s):
     s2 = ""
     state = 0
     for c in s:
@@ -43,4 +41,4 @@ def fuck_it(s):
                 s2 += "\n"
     return s2
 
-print fuck_it(json.dumps(l, sort_keys=True, indent=1))
+print add_random_whitespace(json.dumps(l, sort_keys=True, indent=1))
