@@ -1,6 +1,11 @@
 import arrow
 import csv
+import time
 from bs4 import BeautifulSoup
+import requests
+
+
+LAST_UNINDEXED_ENTRY = 20
 
 
 def get_timestamp_from_romanian_locale(s):
@@ -46,8 +51,29 @@ def parse_submission(submission_id, html):
 
     with open('submissions/{0}.csv'.format(str(submission_id)), 'w') as stream:
         writer = csv.writer(stream)
-        writer.writerows(get_submission_results(soup))
+        try:
+            writer.writerows(get_submission_results(soup))
+        except:
+            print("Could not get table with submission results")
 
 
-with open('example_submission_page.html') as stream:
-    parse_submission(1360382, stream.read())
+infoarena_cookie = ''
+with open('cookie.txt') as stream:
+    infoarena_cookie = stream.read().strip()
+
+
+with open('entries.txt') as stream:
+    entries = stream.readlines()[LAST_UNINDEXED_ENTRY:]
+    for i, entry in enumerate(entries):
+        entry_id = int(entry)
+        print("Parsing {0} ({1}/{2})".format(entry_id, i, len(entries)))
+
+        url = 'http://www.infoarena.ro/job_detail/{0}'.format(entry_id)
+        response = requests.get(url,
+            cookies={'infoarena2_session': infoarena_cookie})
+
+        if response.status_code != 200:
+            raise Exception('Status code was {0}'.format(response.status_code))
+
+        parse_submission(entry_id, response.content)
+        time.sleep(1)
