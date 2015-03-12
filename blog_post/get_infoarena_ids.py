@@ -1,7 +1,11 @@
+"""Grab all the pages in webpages and just print out the IDs."""
+
+
 from bs4 import BeautifulSoup
 
 
 entries = []
+
 
 def parse_webpage(page):
     soup = BeautifulSoup(page)
