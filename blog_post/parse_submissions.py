@@ -16,15 +16,37 @@ def get_timestamp_from_romanian_locale(s):
     return datetime.timestamp
 
 
-def parse_submission(submission_id, html):
-    soup = BeautifulSoup(html)
+def get_submission_details(soup):
     username = soup.find('span', class_='username').get_text()
     score = soup.find('td', class_='score').get_text().strip()
     date = get_timestamp_from_romanian_locale(
         soup.find('td', class_='submit-time').get_text().strip())
+    return [username, score, date]
+
+
+def get_submission_results(soup):
+    results = []
+
+    table = soup.find('table', class_='job-eval-tests')
+    rows = table.find('tbody').find_all('tr')
+
+    for row in rows[:-1]:
+        cells = [cell.text.strip() for cell in row.find_all('td')]
+        results.append(cells)
+
+    return results
+
+
+def parse_submission(submission_id, html):
+    soup = BeautifulSoup(html)
+
     with open('submissions.csv', 'a') as stream:
         writer = csv.writer(stream)
-        writer.writerow([submission_id, username, score, date])
+        writer.writerow([submission_id] + get_submission_details(soup))
+
+    with open('submissions/{0}.csv'.format(str(submission_id)), 'w') as stream:
+        writer = csv.writer(stream)
+        writer.writerows(get_submission_results(soup))
 
 
 with open('example_submission_page.html') as stream:
