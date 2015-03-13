@@ -1,0 +1,10 @@
+1,0ms,388kb,OK,10
+2,0ms,388kb,OK,10
+3,0ms,388kb,OK,10
+4,0ms,400kb,OK,10
+5,4ms,612kb,Killed by signal 6(SIGABRT).,0
+6,0ms,400kb,OK,10
+7,0ms,392kb,OK,10
+8,36ms,1204kb,OK,10
+9,20ms,1052kb,OK,10
+10,28ms,1016kb,OK,10

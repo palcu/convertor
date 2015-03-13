@@ -1,0 +1,10 @@
+1,0ms,328kb,Killed by signal 6(SIGABRT).,0
+2,0ms,320kb,Killed by signal 6(SIGABRT).,0
+3,0ms,344kb,Killed by signal 6(SIGABRT).,0
+4,0ms,376kb,Killed by signal 6(SIGABRT).,0
+5,0ms,372kb,Killed by signal 6(SIGABRT).,0
+6,0ms,376kb,Killed by signal 6(SIGABRT).,0
+7,0ms,368kb,Killed by signal 6(SIGABRT).,0
+8,Depăşit,700kb,Time limit exceeded.,0
+9,16ms,492kb,Killed by signal 11(SIGSEGV).,0
+10,24ms,612kb,Killed by signal 6(SIGABRT).,0

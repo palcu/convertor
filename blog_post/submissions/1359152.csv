@@ -1,0 +1,10 @@
+1,0ms,236kb,OK,10
+2,0ms,240kb,OK,10
+3,0ms,312kb,Killed by signal 6(SIGABRT).,0
+4,12ms,280kb,OK,10
+5,16ms,288kb,OK,10
+6,4ms,264kb,OK,10
+7,0ms,228kb,OK,10
+8,Depăşit,312kb,Time limit exceeded.,0
+9,Depăşit,308kb,Time limit exceeded.,0
+10,Depăşit,300kb,Time limit exceeded.,0

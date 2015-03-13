@@ -1,0 +1,10 @@
+1,0ms,228kb,Non-zero exit status.,0
+2,Depăşit,220kb,Time limit exceeded.,0
+3,12ms,216kb,Killed by signal 11(SIGSEGV).,0
+4,0ms,224kb,Non-zero exit status.,0
+5,12ms,224kb,Killed by signal 11(SIGSEGV).,0
+6,12ms,220kb,Killed by signal 11(SIGSEGV).,0
+7,Depăşit,220kb,Time limit exceeded.,0
+8,Depăşit,220kb,Time limit exceeded.,0
+9,56ms,224kb,Non-zero exit status.,0
+10,16ms,220kb,Killed by signal 11(SIGSEGV).,0

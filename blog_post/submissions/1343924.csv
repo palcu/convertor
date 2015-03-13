@@ -1,0 +1,10 @@
+1,0ms,1464kb,OK,10
+2,0ms,1472kb,OK,10
+3,0ms,1568kb,Killed by signal 6(SIGABRT).,0
+4,0ms,1484kb,OK,10
+5,0ms,1484kb,OK,10
+6,0ms,1484kb,OK,10
+7,0ms,1472kb,OK,10
+8,0ms,1520kb,Killed by signal 11(SIGSEGV).,0
+9,0ms,1516kb,Killed by signal 11(SIGSEGV).,0
+10,0ms,1516kb,Killed by signal 11(SIGSEGV).,0

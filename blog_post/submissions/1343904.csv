@@ -1,0 +1,10 @@
+1,0ms,320kb,OK,10
+2,0ms,316kb,OK,10
+3,0ms,320kb,OK,10
+4,0ms,332kb,OK,10
+5,0ms,344kb,OK,10
+6,0ms,336kb,OK,10
+7,0ms,316kb,OK,10
+8,0ms,292kb,Killed by signal 11(SIGSEGV).,0
+9,8ms,296kb,Killed by signal 11(SIGSEGV).,0
+10,0ms,288kb,Killed by signal 11(SIGSEGV).,0

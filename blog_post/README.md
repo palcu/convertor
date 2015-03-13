@@ -5,6 +5,8 @@
 * add a sleep between requests or do them from multiple machines
 * log every step so you know when you stop
 * be prepared for lots of unexpected things
+* have patiance because it will take longer than expected
+* be prepared to redo at the end because you forgot to scrape for one param
 
 # Libraries I used
 

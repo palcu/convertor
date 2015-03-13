@@ -1,0 +1,10 @@
+1,0ms,292kb,OK,10
+2,0ms,292kb,OK,10
+3,0ms,296kb,OK,10
+4,12ms,308kb,OK,10
+5,16ms,312kb,OK,10
+6,0ms,308kb,OK,10
+7,0ms,292kb,OK,10
+8,28ms,324kb,Incorect,0
+9,32ms,324kb,Incorect,0
+10,36ms,320kb,Incorect,0

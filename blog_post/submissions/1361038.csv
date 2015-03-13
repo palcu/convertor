@@ -1,0 +1,10 @@
+1,43ms,2295kb,OK,10
+2,39ms,2311kb,OK,10
+3,60ms,2800kb,OK,10
+4,70ms,3371kb,OK,10
+5,68ms,3102kb,OK,10
+6,51ms,2565kb,OK,10
+7,38ms,2206kb,OK,10
+8,68ms,5356kb,Memory Limit Exceeded,0
+9,204ms,6686kb,Memory Limit Exceeded,0
+10,204ms,5944kb,Memory Limit Exceeded,0

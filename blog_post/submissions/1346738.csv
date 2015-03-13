@@ -1,0 +1,10 @@
+1,0ms,240kb,OK,10
+2,0ms,236kb,OK,10
+3,0ms,420kb,Incorect,0
+4,0ms,244kb,Incorect,0
+5,0ms,244kb,Incorect,0
+6,0ms,232kb,Incorect,0
+7,0ms,236kb,OK,10
+8,40ms,Depăşit,Memory limit exceeded.,0
+9,92ms,1244kb,Incorect,0
+10,Depăşit,1236kb,Time limit exceeded.,0

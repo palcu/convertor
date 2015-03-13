@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-LAST_UNINDEXED_ENTRY = 20
+LAST_UNINDEXED_ENTRY = 0
 
 
 def get_timestamp_from_romanian_locale(s):
@@ -23,10 +23,11 @@ def get_timestamp_from_romanian_locale(s):
 
 def get_submission_details(soup):
     username = soup.find('span', class_='username').get_text()
+    language = soup.find('td', class_='compiler-id').get_text().split()[0]
     score = soup.find('td', class_='score').get_text().strip()
     date = get_timestamp_from_romanian_locale(
         soup.find('td', class_='submit-time').get_text().strip())
-    return [username, score, date]
+    return [username, language, score, date]
 
 
 def get_submission_results(soup):

@@ -1,0 +1,10 @@
+1,0ms,424kb,OK,10
+2,0ms,416kb,OK,10
+3,0ms,424kb,Incorect,0
+4,0ms,424kb,OK,10
+5,0ms,428kb,OK,10
+6,0ms,420kb,OK,10
+7,0ms,416kb,OK,10
+8,Depăşit,396kb,Time limit exceeded.,0
+9,84ms,432kb,OK,10
+10,84ms,428kb,Incorect,0

@@ -1,0 +1,10 @@
+1,0ms,452kb,OK,10
+2,64ms,Depăşit,Memory limit exceeded.,0
+3,56ms,Depăşit,Memory limit exceeded.,0
+4,4ms,480kb,Incorect,0
+5,4ms,668kb,Killed by signal 6(SIGABRT).,0
+6,0ms,460kb,Incorect,0
+7,28ms,Depăşit,Memory limit exceeded.,0
+8,Depăşit,676kb,Time limit exceeded.,0
+9,Depăşit,680kb,Time limit exceeded.,0
+10,Depăşit,672kb,Time limit exceeded.,0

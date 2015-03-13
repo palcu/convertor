@@ -1,0 +1,10 @@
+1,41ms,1701kb,OK,10
+2,0ms,89kb,Runtime Error,0
+3,0ms,89kb,Runtime Error,0
+4,106ms,1559kb,OK,10
+5,116ms,2272kb,Incorect,0
+6,62ms,4281kb,Memory Limit Exceeded,0
+7,0ms,89kb,Runtime Error,0
+8,132ms,1257kb,Time Limit Exceeded,0
+9,132ms,1622kb,Time Limit Exceeded,0
+10,132ms,2266kb,Time Limit Exceeded,0

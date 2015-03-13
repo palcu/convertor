@@ -1,0 +1,10 @@
+1,0ms,428kb,OK,10
+2,0ms,328kb,OK,10
+3,0ms,760kb,Incorect,0
+4,0ms,1344kb,Killed by signal 11(SIGSEGV).,0
+5,0ms,1384kb,Wall time limit exceeded.,0
+6,0ms,736kb,OK,10
+7,0ms,248kb,OK,10
+8,0ms,1832kb,Wall time limit exceeded.,0
+9,0ms,1828kb,Wall time limit exceeded.,0
+10,0ms,1440kb,Wall time limit exceeded.,0

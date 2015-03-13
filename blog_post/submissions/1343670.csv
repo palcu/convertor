@@ -1,0 +1,10 @@
+1,0ms,1200kb,Incorect,0
+2,0ms,1196kb,Incorect,0
+3,0ms,1196kb,Incorect,0
+4,0ms,1212kb,Incorect,0
+5,0ms,1220kb,Incorect,0
+6,0ms,1208kb,Incorect,0
+7,0ms,1192kb,Incorect,0
+8,Depăşit,1176kb,Time limit exceeded.,0
+9,8ms,1276kb,Killed by signal 11(SIGSEGV).,0
+10,12ms,1276kb,Killed by signal 11(SIGSEGV).,0

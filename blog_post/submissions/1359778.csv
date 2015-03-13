@@ -1,0 +1,10 @@
+1,0ms,288kb,Killed by signal 11(SIGSEGV).,0
+2,0ms,212kb,OK,10
+3,0ms,332kb,OK,10
+4,0ms,216kb,OK,10
+5,0ms,216kb,OK,10
+6,0ms,312kb,Killed by signal 6(SIGABRT).,0
+7,0ms,316kb,Killed by signal 6(SIGABRT).,0
+8,12ms,Depăşit,Memory limit exceeded.,0
+9,0ms,336kb,Killed by signal 11(SIGSEGV).,0
+10,0ms,332kb,Killed by signal 11(SIGSEGV).,0

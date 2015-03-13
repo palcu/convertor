@@ -1,0 +1,10 @@
+1,0ms,376kb,OK,10
+2,0ms,380kb,OK,10
+3,0ms,380kb,OK,10
+4,0ms,380kb,OK,10
+5,Depăşit,372kb,Time limit exceeded.,0
+6,0ms,376kb,OK,10
+7,Depăşit,364kb,Time limit exceeded.,0
+8,56ms,552kb,Killed by signal 11(SIGSEGV).,0
+9,88ms,376kb,OK,10
+10,Depăşit,384kb,Time limit exceeded.,0
